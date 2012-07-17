@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		789DC4F615B55CF300933A3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789DC4F515B55CF300933A3E /* Foundation.framework */; };
 		789DC50515B55CF300933A3E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789DC50415B55CF300933A3E /* SenTestingKit.framework */; };
-		789DC50715B55CF300933A3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789DC50615B55CF300933A3E /* UIKit.framework */; };
 		789DC50815B55CF300933A3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789DC4F515B55CF300933A3E /* Foundation.framework */; };
 		789DC50B15B55CF300933A3E /* libUIExpectations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 789DC4F215B55CF300933A3E /* libUIExpectations.a */; };
 		789DC51115B55CF300933A3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 789DC50F15B55CF300933A3E /* InfoPlist.strings */; };
@@ -17,6 +16,10 @@
 		789DC52315B55E5900933A3E /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 789DC52215B55E5900933A3E /* Versioning.m */; };
 		789DC52415B55EA800933A3E /* UIExpectations.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 789DC51D15B55DDD00933A3E /* UIExpectations.h */; };
 		789DC52515B55EC600933A3E /* Versioning.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 789DC52115B55E5900933A3E /* Versioning.h */; };
+		789DC54C15B5710E00933A3E /* UIEvent+UIExpectations.m in Sources */ = {isa = PBXBuildFile; fileRef = 789DC54B15B5710D00933A3E /* UIEvent+UIExpectations.m */; };
+		789DC54D15B574C500933A3E /* UIEvent+UIExpectations.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 789DC54A15B5710D00933A3E /* UIEvent+UIExpectations.h */; };
+		789DC54F15B5754200933A3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789DC54E15B5754200933A3E /* UIKit.framework */; };
+		789DC55015B5756C00933A3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789DC54E15B5754200933A3E /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				789DC52415B55EA800933A3E /* UIExpectations.h in CopyFiles */,
+				789DC54D15B574C500933A3E /* UIEvent+UIExpectations.h in CopyFiles */,
 				789DC52515B55EC600933A3E /* Versioning.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,7 +53,6 @@
 		789DC4F915B55CF300933A3E /* UIExpectations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIExpectations-Prefix.pch"; sourceTree = "<group>"; };
 		789DC50315B55CF300933A3E /* UIExpectationsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIExpectationsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		789DC50415B55CF300933A3E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		789DC50615B55CF300933A3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		789DC50E15B55CF300933A3E /* UIExpectationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIExpectationsTests-Info.plist"; sourceTree = "<group>"; };
 		789DC51015B55CF300933A3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		789DC51215B55CF300933A3E /* UIExpectationsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIExpectationsTests.h; sourceTree = "<group>"; };
@@ -57,6 +60,10 @@
 		789DC51D15B55DDD00933A3E /* UIExpectations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIExpectations.h; sourceTree = "<group>"; };
 		789DC52115B55E5900933A3E /* Versioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Versioning.h; sourceTree = "<group>"; };
 		789DC52215B55E5900933A3E /* Versioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Versioning.m; sourceTree = "<group>"; };
+		789DC54515B56FC100933A3E /* UIEvent+UIEventPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIEvent+UIEventPrivate.h"; sourceTree = "<group>"; };
+		789DC54A15B5710D00933A3E /* UIEvent+UIExpectations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIEvent+UIExpectations.h"; sourceTree = "<group>"; };
+		789DC54B15B5710D00933A3E /* UIEvent+UIExpectations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIEvent+UIExpectations.m"; sourceTree = "<group>"; };
+		789DC54E15B5754200933A3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789DC54F15B5754200933A3E /* UIKit.framework in Frameworks */,
 				789DC4F615B55CF300933A3E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,8 +81,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				789DC50515B55CF300933A3E /* SenTestingKit.framework in Frameworks */,
-				789DC50715B55CF300933A3E /* UIKit.framework in Frameworks */,
 				789DC50815B55CF300933A3E /* Foundation.framework in Frameworks */,
+				789DC55015B5756C00933A3E /* UIKit.framework in Frameworks */,
 				789DC50B15B55CF300933A3E /* libUIExpectations.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,9 +112,9 @@
 		789DC4F415B55CF300933A3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				789DC54E15B5754200933A3E /* UIKit.framework */,
 				789DC4F515B55CF300933A3E /* Foundation.framework */,
 				789DC50415B55CF300933A3E /* SenTestingKit.framework */,
-				789DC50615B55CF300933A3E /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				789DC51D15B55DDD00933A3E /* UIExpectations.h */,
+				789DC54A15B5710D00933A3E /* UIEvent+UIExpectations.h */,
+				789DC54B15B5710D00933A3E /* UIEvent+UIExpectations.m */,
+				789DC54515B56FC100933A3E /* UIEvent+UIEventPrivate.h */,
 				789DC4F815B55CF300933A3E /* Supporting Files */,
 			);
 			path = UIExpectations;
@@ -248,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				789DC52315B55E5900933A3E /* Versioning.m in Sources */,
+				789DC54C15B5710E00933A3E /* UIEvent+UIExpectations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

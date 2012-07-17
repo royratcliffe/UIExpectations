@@ -22,4 +22,5 @@
  *
  ******************************************************************************/
 
+#import <UIExpectations/UIEvent+UIExpectations.h>
 #import <UIExpectations/Versioning.h>
