@@ -24,6 +24,15 @@
 
 #import "UIExpectationsTests.h"
 
+#import <UIExpectations/UIExpectations.h>
+
 @implementation UIExpectationsTests
+
+- (void)testVersioning
+{
+	STAssertNotNil(UIExpectationsVersionString(), nil);
+	STAssertTrue(strcmp(@encode(typeof(kUIExpectationsVersionString)), "^C") == 0, nil);
+	STAssertTrue(strcmp(@encode(typeof(kUIExpectationsVersionNumber)), "d") == 0, nil);
+}
 
 @end
