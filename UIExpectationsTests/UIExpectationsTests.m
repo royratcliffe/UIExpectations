@@ -35,4 +35,10 @@
 	STAssertTrue(strcmp(@encode(typeof(kUIExpectationsVersionNumber)), "d") == 0, nil);
 }
 
+// You can instantiate events.
+- (void)testEventAllocInit
+{
+	STAssertNotNil([[UIEvent alloc] init], nil);
+}
+
 @end
