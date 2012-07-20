@@ -16,8 +16,6 @@
 		789DC52315B55E5900933A3E /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 789DC52215B55E5900933A3E /* Versioning.m */; };
 		789DC52415B55EA800933A3E /* UIExpectations.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 789DC51D15B55DDD00933A3E /* UIExpectations.h */; };
 		789DC52515B55EC600933A3E /* Versioning.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 789DC52115B55E5900933A3E /* Versioning.h */; };
-		789DC54C15B5710E00933A3E /* UIEvent+UIExpectations.m in Sources */ = {isa = PBXBuildFile; fileRef = 789DC54B15B5710D00933A3E /* UIEvent+UIExpectations.m */; };
-		789DC54D15B574C500933A3E /* UIEvent+UIExpectations.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 789DC54A15B5710D00933A3E /* UIEvent+UIExpectations.h */; };
 		789DC54F15B5754200933A3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789DC54E15B5754200933A3E /* UIKit.framework */; };
 		789DC55015B5756C00933A3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789DC54E15B5754200933A3E /* UIKit.framework */; };
 /* End PBXBuildFile section */
@@ -40,7 +38,6 @@
 			dstSubfolderSpec = 16;
 			files = (
 				789DC52415B55EA800933A3E /* UIExpectations.h in CopyFiles */,
-				789DC54D15B574C500933A3E /* UIEvent+UIExpectations.h in CopyFiles */,
 				789DC52515B55EC600933A3E /* Versioning.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,9 +57,6 @@
 		789DC51D15B55DDD00933A3E /* UIExpectations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIExpectations.h; sourceTree = "<group>"; };
 		789DC52115B55E5900933A3E /* Versioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Versioning.h; sourceTree = "<group>"; };
 		789DC52215B55E5900933A3E /* Versioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Versioning.m; sourceTree = "<group>"; };
-		789DC54515B56FC100933A3E /* UIEvent+UIEventPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIEvent+UIEventPrivate.h"; sourceTree = "<group>"; };
-		789DC54A15B5710D00933A3E /* UIEvent+UIExpectations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIEvent+UIExpectations.h"; sourceTree = "<group>"; };
-		789DC54B15B5710D00933A3E /* UIEvent+UIExpectations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIEvent+UIExpectations.m"; sourceTree = "<group>"; };
 		789DC54E15B5754200933A3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -123,9 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				789DC51D15B55DDD00933A3E /* UIExpectations.h */,
-				789DC54A15B5710D00933A3E /* UIEvent+UIExpectations.h */,
-				789DC54B15B5710D00933A3E /* UIEvent+UIExpectations.m */,
-				789DC54515B56FC100933A3E /* UIEvent+UIEventPrivate.h */,
 				789DC4F815B55CF300933A3E /* Supporting Files */,
 			);
 			path = UIExpectations;
@@ -259,7 +250,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				789DC52315B55E5900933A3E /* Versioning.m in Sources */,
-				789DC54C15B5710E00933A3E /* UIEvent+UIExpectations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
