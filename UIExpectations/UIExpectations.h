@@ -22,4 +22,5 @@
  *
  ******************************************************************************/
 
+#import <UIExpectations/UISpecAutomationMatcher.h>
 #import <UIExpectations/Versioning.h>

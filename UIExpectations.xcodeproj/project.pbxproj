@@ -20,6 +20,8 @@
 		789DC55015B5756C00933A3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789DC54E15B5754200933A3E /* UIKit.framework */; };
 		78BE5C1315BA7A61009FBA86 /* libOCExpectations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BE5C0D15BA7A43009FBA86 /* libOCExpectations.a */; };
 		78BE5C1615BA7A90009FBA86 /* VersioningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE5C1515BA7A90009FBA86 /* VersioningTests.m */; };
+		78BE5C1915BA7CB0009FBA86 /* UISpecAutomationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE5C1815BA7CAF009FBA86 /* UISpecAutomationMatcher.m */; };
+		78BE5C1A15BA7CD7009FBA86 /* UISpecAutomationMatcher.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78BE5C1715BA7CAF009FBA86 /* UISpecAutomationMatcher.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				789DC52415B55EA800933A3E /* UIExpectations.h in CopyFiles */,
+				78BE5C1A15BA7CD7009FBA86 /* UISpecAutomationMatcher.h in CopyFiles */,
 				789DC52515B55EC600933A3E /* Versioning.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +101,8 @@
 		78BE5BFE15BA7A42009FBA86 /* OCExpectations.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCExpectations.xcodeproj; path = OCExpectations/OCExpectations.xcodeproj; sourceTree = "<group>"; };
 		78BE5C1415BA7A90009FBA86 /* VersioningTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersioningTests.h; sourceTree = "<group>"; };
 		78BE5C1515BA7A90009FBA86 /* VersioningTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersioningTests.m; sourceTree = "<group>"; };
+		78BE5C1715BA7CAF009FBA86 /* UISpecAutomationMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISpecAutomationMatcher.h; sourceTree = "<group>"; };
+		78BE5C1815BA7CAF009FBA86 /* UISpecAutomationMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISpecAutomationMatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				789DC51D15B55DDD00933A3E /* UIExpectations.h */,
+				78BE5C1715BA7CAF009FBA86 /* UISpecAutomationMatcher.h */,
+				78BE5C1815BA7CAF009FBA86 /* UISpecAutomationMatcher.m */,
 				789DC4F815B55CF300933A3E /* Supporting Files */,
 			);
 			path = UIExpectations;
@@ -343,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				789DC52315B55E5900933A3E /* Versioning.m in Sources */,
+				78BE5C1915BA7CB0009FBA86 /* UISpecAutomationMatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

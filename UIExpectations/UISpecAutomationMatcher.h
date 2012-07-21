@@ -1,4 +1,4 @@
-// UIExpectationsTests UIExpectationsTests.m
+// UIExpectations UISpecAutomationMatcher.h
 //
 // Copyright © 2012, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -22,15 +22,8 @@
 //
 //------------------------------------------------------------------------------
 
-#import "UIExpectationsTests.h"
+#import <OCExpectations/OCExpectations.h>
 
-#import <UIExpectations/UIExpectations.h>
-
-@implementation UIExpectationsTests
-
-- (void)testCanInstantiateAutomationMatcher
-{
-	STAssertNotNil([[UISpecAutomationMatcher alloc] init], nil);
-}
+@interface UISpecAutomationMatcher : OCSpecBaseMatcher
 
 @end
