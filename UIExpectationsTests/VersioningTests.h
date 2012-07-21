@@ -1,4 +1,4 @@
-// UIExpectationsTests UIExpectationsTests.m
+// UIExpectationsTests VersioningTests.h
 //
 // Copyright © 2012, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -22,10 +22,8 @@
 //
 //------------------------------------------------------------------------------
 
-#import "UIExpectationsTests.h"
+#import <SenTestingKit/SenTestingKit.h>
 
-#import <UIExpectations/UIExpectations.h>
-
-@implementation UIExpectationsTests
+@interface VersioningTests : SenTestCase
 
 @end

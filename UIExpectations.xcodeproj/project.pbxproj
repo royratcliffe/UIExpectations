@@ -18,6 +18,8 @@
 		789DC52515B55EC600933A3E /* Versioning.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 789DC52115B55E5900933A3E /* Versioning.h */; };
 		789DC54F15B5754200933A3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789DC54E15B5754200933A3E /* UIKit.framework */; };
 		789DC55015B5756C00933A3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789DC54E15B5754200933A3E /* UIKit.framework */; };
+		78BE5C1315BA7A61009FBA86 /* libOCExpectations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BE5C0D15BA7A43009FBA86 /* libOCExpectations.a */; };
+		78BE5C1615BA7A90009FBA86 /* VersioningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE5C1515BA7A90009FBA86 /* VersioningTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,41 @@
 			proxyType = 1;
 			remoteGlobalIDString = 789DC4F115B55CF300933A3E;
 			remoteInfo = UIExpectations;
+		};
+		78BE5C0815BA7A43009FBA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BE5BFE15BA7A42009FBA86 /* OCExpectations.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78C5D6A915B2858B00CA3D41;
+			remoteInfo = OCExpectations;
+		};
+		78BE5C0A15BA7A43009FBA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BE5BFE15BA7A42009FBA86 /* OCExpectations.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78C5D6C115B2858B00CA3D41;
+			remoteInfo = OCExpectationsTests;
+		};
+		78BE5C0C15BA7A43009FBA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BE5BFE15BA7A42009FBA86 /* OCExpectations.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7807A2DD15B4542A00E69441;
+			remoteInfo = OCExpectationsLib;
+		};
+		78BE5C0E15BA7A43009FBA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BE5BFE15BA7A42009FBA86 /* OCExpectations.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7807A2EC15B4542A00E69441;
+			remoteInfo = OCExpectationsLibTests;
+		};
+		78BE5C1115BA7A58009FBA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BE5BFE15BA7A42009FBA86 /* OCExpectations.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7807A2DC15B4542A00E69441;
+			remoteInfo = OCExpectationsLib;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -58,6 +95,9 @@
 		789DC52115B55E5900933A3E /* Versioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Versioning.h; sourceTree = "<group>"; };
 		789DC52215B55E5900933A3E /* Versioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Versioning.m; sourceTree = "<group>"; };
 		789DC54E15B5754200933A3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78BE5BFE15BA7A42009FBA86 /* OCExpectations.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCExpectations.xcodeproj; path = OCExpectations/OCExpectations.xcodeproj; sourceTree = "<group>"; };
+		78BE5C1415BA7A90009FBA86 /* VersioningTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersioningTests.h; sourceTree = "<group>"; };
+		78BE5C1515BA7A90009FBA86 /* VersioningTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersioningTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BE5C1315BA7A61009FBA86 /* libOCExpectations.a in Frameworks */,
 				789DC54F15B5754200933A3E /* UIKit.framework in Frameworks */,
 				789DC4F615B55CF300933A3E /* Foundation.framework in Frameworks */,
 			);
@@ -87,6 +128,7 @@
 		789DC4E715B55CF300933A3E = {
 			isa = PBXGroup;
 			children = (
+				78BE5BFE15BA7A42009FBA86 /* OCExpectations.xcodeproj */,
 				789DC4F715B55CF300933A3E /* UIExpectations */,
 				789DC50C15B55CF300933A3E /* UIExpectationsTests */,
 				789DC4F415B55CF300933A3E /* Frameworks */,
@@ -137,6 +179,8 @@
 			children = (
 				789DC51215B55CF300933A3E /* UIExpectationsTests.h */,
 				789DC51315B55CF300933A3E /* UIExpectationsTests.m */,
+				78BE5C1415BA7A90009FBA86 /* VersioningTests.h */,
+				78BE5C1515BA7A90009FBA86 /* VersioningTests.m */,
 				789DC50D15B55CF300933A3E /* Supporting Files */,
 			);
 			path = UIExpectationsTests;
@@ -149,6 +193,17 @@
 				789DC50F15B55CF300933A3E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78BE5BFF15BA7A42009FBA86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78BE5C0915BA7A43009FBA86 /* OCExpectations.framework */,
+				78BE5C0B15BA7A43009FBA86 /* OCExpectationsTests.octest */,
+				78BE5C0D15BA7A43009FBA86 /* libOCExpectations.a */,
+				78BE5C0F15BA7A43009FBA86 /* OCExpectationsLibTests.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +220,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				78BE5C1215BA7A58009FBA86 /* PBXTargetDependency */,
 			);
 			name = UIExpectations;
 			productName = UIExpectations;
@@ -209,6 +265,12 @@
 			mainGroup = 789DC4E715B55CF300933A3E;
 			productRefGroup = 789DC4F315B55CF300933A3E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 78BE5BFF15BA7A42009FBA86 /* Products */;
+					ProjectRef = 78BE5BFE15BA7A42009FBA86 /* OCExpectations.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				789DC4F115B55CF300933A3E /* UIExpectations */,
@@ -216,6 +278,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		78BE5C0915BA7A43009FBA86 /* OCExpectations.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OCExpectations.framework;
+			remoteRef = 78BE5C0815BA7A43009FBA86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		78BE5C0B15BA7A43009FBA86 /* OCExpectationsTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCExpectationsTests.octest;
+			remoteRef = 78BE5C0A15BA7A43009FBA86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		78BE5C0D15BA7A43009FBA86 /* libOCExpectations.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOCExpectations.a;
+			remoteRef = 78BE5C0C15BA7A43009FBA86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		78BE5C0F15BA7A43009FBA86 /* OCExpectationsLibTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCExpectationsLibTests.octest;
+			remoteRef = 78BE5C0E15BA7A43009FBA86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		789DC50015B55CF300933A3E /* Resources */ = {
@@ -258,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				789DC51415B55CF300933A3E /* UIExpectationsTests.m in Sources */,
+				78BE5C1615BA7A90009FBA86 /* VersioningTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +362,11 @@
 			isa = PBXTargetDependency;
 			target = 789DC4F115B55CF300933A3E /* UIExpectations */;
 			targetProxy = 789DC50915B55CF300933A3E /* PBXContainerItemProxy */;
+		};
+		78BE5C1215BA7A58009FBA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCExpectationsLib;
+			targetProxy = 78BE5C1115BA7A58009FBA86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

@@ -1,4 +1,4 @@
-// UIExpectationsTests UIExpectationsTests.m
+// UIExpectationsTests VersioningTests.m
 //
 // Copyright © 2012, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -22,10 +22,17 @@
 //
 //------------------------------------------------------------------------------
 
-#import "UIExpectationsTests.h"
+#import "VersioningTests.h"
 
 #import <UIExpectations/UIExpectations.h>
 
-@implementation UIExpectationsTests
+@implementation VersioningTests
+
+- (void)testVersioning
+{
+	STAssertNotNil(UIExpectationsVersionString(), nil);
+	STAssertTrue(strcmp(@encode(typeof(kUIExpectationsVersionString)), "^C") == 0, nil);
+	STAssertTrue(strcmp(@encode(typeof(kUIExpectationsVersionNumber)), "d") == 0, nil);
+}
 
 @end
