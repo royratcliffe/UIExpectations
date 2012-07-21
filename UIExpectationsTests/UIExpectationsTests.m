@@ -33,4 +33,9 @@
 	STAssertNotNil([[UISpecAutomationMatcher alloc] init], nil);
 }
 
+- (void)testAutomationDependency
+{
+	STAssertNotNil([[UIAutomation targetClass] localTarget], nil);
+}
+
 @end
