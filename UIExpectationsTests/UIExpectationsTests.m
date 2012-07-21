@@ -28,9 +28,12 @@
 
 @implementation UIExpectationsTests
 
-- (void)testCanInstantiateAutomationMatcher
+- (void)testExpectationsDependency
 {
-	STAssertNotNil([[UISpecAutomationMatcher alloc] init], nil);
+	// Important note: for this to work you need -all_load (or equivalent) as
+	// your other linker flags for the test target. Otherwise you will see an
+	// "unrecognized selector sent to instance" exception.
+	STAssertNoThrow([@(1+1) should:equal(@2)], nil);
 }
 
 - (void)testAutomationDependency
