@@ -1,3 +1,6 @@
 [submodule "OCExpectations"]
 	path = OCExpectations
 	url = git@github.com:royratcliffe/OCExpectations.git
+[submodule "UIAutomation"]
+	path = UIAutomation
+	url = git@github.com:royratcliffe/UIAutomation.git

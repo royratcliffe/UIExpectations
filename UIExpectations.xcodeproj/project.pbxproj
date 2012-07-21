@@ -67,6 +67,20 @@
 			remoteGlobalIDString = 7807A2DC15B4542A00E69441;
 			remoteInfo = OCExpectationsLib;
 		};
+		78BE5C3015BA97CF009FBA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BE5C2815BA97CE009FBA86 /* UIAutomation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78B19B9A15B5B5E200D9E96E;
+			remoteInfo = UIAutomation;
+		};
+		78BE5C3215BA97CF009FBA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BE5C2815BA97CE009FBA86 /* UIAutomation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78B19BAB15B5B5E200D9E96E;
+			remoteInfo = UIAutomationTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -103,6 +117,7 @@
 		78BE5C1515BA7A90009FBA86 /* VersioningTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersioningTests.m; sourceTree = "<group>"; };
 		78BE5C1715BA7CAF009FBA86 /* UISpecAutomationMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISpecAutomationMatcher.h; sourceTree = "<group>"; };
 		78BE5C1815BA7CAF009FBA86 /* UISpecAutomationMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISpecAutomationMatcher.m; sourceTree = "<group>"; };
+		78BE5C2815BA97CE009FBA86 /* UIAutomation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIAutomation.xcodeproj; path = UIAutomation/UIAutomation.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				78BE5BFE15BA7A42009FBA86 /* OCExpectations.xcodeproj */,
+				78BE5C2815BA97CE009FBA86 /* UIAutomation.xcodeproj */,
 				789DC4F715B55CF300933A3E /* UIExpectations */,
 				789DC50C15B55CF300933A3E /* UIExpectationsTests */,
 				789DC4F415B55CF300933A3E /* Frameworks */,
@@ -213,6 +229,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		78BE5C2915BA97CE009FBA86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78BE5C3115BA97CF009FBA86 /* libUIAutomation.a */,
+				78BE5C3315BA97CF009FBA86 /* UIAutomationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -277,6 +302,10 @@
 					ProductGroup = 78BE5BFF15BA7A42009FBA86 /* Products */;
 					ProjectRef = 78BE5BFE15BA7A42009FBA86 /* OCExpectations.xcodeproj */;
 				},
+				{
+					ProductGroup = 78BE5C2915BA97CE009FBA86 /* Products */;
+					ProjectRef = 78BE5C2815BA97CE009FBA86 /* UIAutomation.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -313,6 +342,20 @@
 			fileType = wrapper.cfbundle;
 			path = OCExpectationsLibTests.octest;
 			remoteRef = 78BE5C0E15BA7A43009FBA86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		78BE5C3115BA97CF009FBA86 /* libUIAutomation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUIAutomation.a;
+			remoteRef = 78BE5C3015BA97CF009FBA86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		78BE5C3315BA97CF009FBA86 /* UIAutomationTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UIAutomationTests.octest;
+			remoteRef = 78BE5C3215BA97CF009FBA86 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
