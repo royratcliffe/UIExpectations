@@ -22,5 +22,14 @@
  *
  ******************************************************************************/
 
+/*
+ * Our two direct dependencies: Objective-C expectations and UIKit
+ * automation. Include them both first; importing UI expectations therefore
+ * automatically imports its dependencies. Import extensions and additions
+ * subsequently.
+ */
+#import <OCExpectations/OCExpectations.h>
+#import <UIAutomation/UIAutomation.h>
+
 #import <UIExpectations/UISpecAutomationMatcher.h>
 #import <UIExpectations/Versioning.h>
