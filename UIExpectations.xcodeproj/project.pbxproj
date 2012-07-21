@@ -22,6 +22,7 @@
 		78BE5C1615BA7A90009FBA86 /* VersioningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE5C1515BA7A90009FBA86 /* VersioningTests.m */; };
 		78BE5C1915BA7CB0009FBA86 /* UISpecAutomationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE5C1815BA7CAF009FBA86 /* UISpecAutomationMatcher.m */; };
 		78BE5C1A15BA7CD7009FBA86 /* UISpecAutomationMatcher.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78BE5C1715BA7CAF009FBA86 /* UISpecAutomationMatcher.h */; };
+		78BE5C3615BA99DB009FBA86 /* libUIAutomation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BE5C3115BA97CF009FBA86 /* libUIAutomation.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,13 @@
 			remoteGlobalIDString = 78B19BAB15B5B5E200D9E96E;
 			remoteInfo = UIAutomationTests;
 		};
+		78BE5C3415BA99D0009FBA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BE5C2815BA97CE009FBA86 /* UIAutomation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 78B19B9915B5B5E200D9E96E;
+			remoteInfo = UIAutomation;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -126,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78BE5C1315BA7A61009FBA86 /* libOCExpectations.a in Frameworks */,
+				78BE5C3615BA99DB009FBA86 /* libUIAutomation.a in Frameworks */,
 				789DC54F15B5754200933A3E /* UIKit.framework in Frameworks */,
 				789DC4F615B55CF300933A3E /* Foundation.framework in Frameworks */,
 			);
@@ -253,6 +262,7 @@
 			);
 			dependencies = (
 				78BE5C1215BA7A58009FBA86 /* PBXTargetDependency */,
+				78BE5C3515BA99D0009FBA86 /* PBXTargetDependency */,
 			);
 			name = UIExpectations;
 			productName = UIExpectations;
@@ -418,6 +428,11 @@
 			isa = PBXTargetDependency;
 			name = OCExpectationsLib;
 			targetProxy = 78BE5C1115BA7A58009FBA86 /* PBXContainerItemProxy */;
+		};
+		78BE5C3515BA99D0009FBA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIAutomation;
+			targetProxy = 78BE5C3415BA99D0009FBA86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
