@@ -39,6 +39,8 @@
 - (void)testAutomationDependency
 {
 	STAssertNotNil([[UIAutomation targetClass] localTarget], nil);
+	// Assert exactly the same thing. This time though, use an expectation.
+	STAssertNoThrow([[[UIAutomation targetClass] localTarget] shouldNot:be_nil], nil);
 }
 
 /*
