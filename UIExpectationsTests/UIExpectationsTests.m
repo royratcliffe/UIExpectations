@@ -50,16 +50,7 @@
  */
 - (void)testSimulatorStatusBarElements
 {
-	NSMutableArray *labels = [NSMutableArray array];
-	id elements = [[[[[UIAutomation targetClass] localTarget] frontMostApp] statusBar] elements];
-	for (UIAElement *element in elements)
-	{
-		NSString *label = [element label];
-		if (label)
-		{
-			[labels addObject:label];
-		}
-	}
+	NSArray *labels = [[UIAutomation localTarget] valueForKeyPath:@"frontMostApp.statusBar.elements.label"];
 	STAssertTrue([labels containsObject:@"3 of 3 bars, Wi-Fi signal strength"], nil);
 	STAssertTrue([labels containsObject:@"100% battery power"], nil);
 }
