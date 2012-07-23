@@ -41,4 +41,25 @@
 	STAssertNotNil([[UIAutomation targetClass] localTarget], nil);
 }
 
+/*
+ * The iOS simulator status bar should contain Wi-Fi signal strength and battery
+ * power indicators. Check their presence. This test assumes English as the
+ * simulator language configuration.
+ */
+- (void)testSimulatorStatusBarElements
+{
+	NSMutableArray *labels = [NSMutableArray array];
+	id elements = [[[[[UIAutomation targetClass] localTarget] frontMostApp] statusBar] elements];
+	for (UIAElement *element in elements)
+	{
+		NSString *label = [element label];
+		if (label)
+		{
+			[labels addObject:label];
+		}
+	}
+	STAssertTrue([labels containsObject:@"3 of 3 bars, Wi-Fi signal strength"], nil);
+	STAssertTrue([labels containsObject:@"100% battery power"], nil);
+}
+
 @end
