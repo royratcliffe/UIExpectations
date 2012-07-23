@@ -31,5 +31,6 @@
 #import <OCExpectations/OCExpectations.h>
 #import <UIAutomation/UIAutomation.h>
 
+#import <UIExpectations/UIAutomation+UIExpectations.h>
 #import <UIExpectations/UISpecAutomationMatcher.h>
 #import <UIExpectations/Versioning.h>

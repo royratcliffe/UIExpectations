@@ -23,6 +23,8 @@
 		78BE5C1915BA7CB0009FBA86 /* UISpecAutomationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE5C1815BA7CAF009FBA86 /* UISpecAutomationMatcher.m */; };
 		78BE5C1A15BA7CD7009FBA86 /* UISpecAutomationMatcher.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78BE5C1715BA7CAF009FBA86 /* UISpecAutomationMatcher.h */; };
 		78BE5C3615BA99DB009FBA86 /* libUIAutomation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BE5C3115BA97CF009FBA86 /* libUIAutomation.a */; };
+		78ED364115BDCCA4007D00E1 /* UIAutomation+UIExpectations.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ED364015BDCCA4007D00E1 /* UIAutomation+UIExpectations.m */; };
+		78ED364215BDCD93007D00E1 /* UIAutomation+UIExpectations.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78ED363F15BDCCA4007D00E1 /* UIAutomation+UIExpectations.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				789DC52415B55EA800933A3E /* UIExpectations.h in CopyFiles */,
+				78ED364215BDCD93007D00E1 /* UIAutomation+UIExpectations.h in CopyFiles */,
 				78BE5C1A15BA7CD7009FBA86 /* UISpecAutomationMatcher.h in CopyFiles */,
 				789DC52515B55EC600933A3E /* Versioning.h in CopyFiles */,
 			);
@@ -126,6 +129,8 @@
 		78BE5C1715BA7CAF009FBA86 /* UISpecAutomationMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISpecAutomationMatcher.h; sourceTree = "<group>"; };
 		78BE5C1815BA7CAF009FBA86 /* UISpecAutomationMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISpecAutomationMatcher.m; sourceTree = "<group>"; };
 		78BE5C2815BA97CE009FBA86 /* UIAutomation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIAutomation.xcodeproj; path = UIAutomation/UIAutomation.xcodeproj; sourceTree = "<group>"; };
+		78ED363F15BDCCA4007D00E1 /* UIAutomation+UIExpectations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAutomation+UIExpectations.h"; sourceTree = "<group>"; };
+		78ED364015BDCCA4007D00E1 /* UIAutomation+UIExpectations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAutomation+UIExpectations.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				789DC51D15B55DDD00933A3E /* UIExpectations.h */,
+				78ED363F15BDCCA4007D00E1 /* UIAutomation+UIExpectations.h */,
+				78ED364015BDCCA4007D00E1 /* UIAutomation+UIExpectations.m */,
 				78BE5C1715BA7CAF009FBA86 /* UISpecAutomationMatcher.h */,
 				78BE5C1815BA7CAF009FBA86 /* UISpecAutomationMatcher.m */,
 				789DC4F815B55CF300933A3E /* Supporting Files */,
@@ -404,6 +411,7 @@
 			files = (
 				789DC52315B55E5900933A3E /* Versioning.m in Sources */,
 				78BE5C1915BA7CB0009FBA86 /* UISpecAutomationMatcher.m in Sources */,
+				78ED364115BDCCA4007D00E1 /* UIAutomation+UIExpectations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
